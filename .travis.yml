@@ -17,4 +17,5 @@ notifications:
     email: false
 
 after_success:
-    - julia -e 'using Pkg; cd(Pkg.dir("NilsTFPackage")); Codecov.submit(Codecov.process_folder())'
+    - julia -e 'using Pkg; cd(Pkg.dir("NilsTFPackage")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
+
