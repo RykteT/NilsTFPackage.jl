@@ -14,10 +14,8 @@ throughout the function.
 ### Example
 
     v1 = TrackingFloat(1) #Stores 1 as the value and 0 as the max
-    v2 = v1 + 2 #v2 == TrackingFloat(3, 2) since 2 is the biggest number
-    it has encountered
-    v3 = -4v2 #v3 == TrackingFloat(-12, 4) since 4 is the biggest factor
-    in this number.
+    v2 = v1 + 2 #v2 == TrackingFloat(3, 2) since 2 is the biggest number it has encountered
+    v3 = -4v2 #v3 == TrackingFloat(-12, 4) since 4 is the biggest factor in this number.
 
 ### Instructions
 The Package includes the struct TrackingFloat as well as functions handling
