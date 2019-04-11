@@ -2,6 +2,8 @@ module NilsTFPackage
 
 import Base: +, -, *, /, <, sqrt, promote_rule, convert
 
+export TrackingFloat
+
 struct TrackingFloat <: AbstractFloat
     val::Float64
     mem::Float64

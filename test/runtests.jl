@@ -1,4 +1,5 @@
-using Test, NilsTFPackage: TrackingFloat
+using Test
+using NilsTFPackage
 
 @testset "AllTests" begin
 
