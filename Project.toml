@@ -1,0 +1,4 @@
+name = "NilsTFPackage"
+uuid = "58585a00-5c4e-11e9-32bc-3167911efcce"
+authors = ["NilsVreman <nils.vreman@gmail.com>"]
+version = "0.1.0"

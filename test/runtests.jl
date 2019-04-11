@@ -1,3 +1,5 @@
+module NilsTFPackage
+
 @show VERSION
 import Base: +, -, *, /, <, sqrt, promote_rule, convert
 using Test
@@ -116,3 +118,4 @@ println(maximum(getmax.(sol2)))
 # TrackingFloat{Int64} + TrackingFloat{Int64} isa TrackingFloat{Int64}
 # Can you make the following work too?
 # TrackingFloat{Int64} + TrackingFloat{Float64} isa TrackingFloat{Float64})))
+end # module
